@@ -1,0 +1,34 @@
+{
+	"license": "MIT",
+	"author": "Paul Williams",
+	"version": "0.1.0",
+	"name": "@paulio/TODO-TODO-js",
+	"description": "TODO",
+	"keywords": [
+		"TODO",
+		"TODO"
+	],
+	"type": "module",
+	"engines": {
+		"node": ">=24"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PaulioRandall/TODO-TODO-js.git"
+	},
+	"main": "src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"scripts": {
+		"update": "npx npm-check-updates -u && npm i",
+		"fmt": "prettier --log-level warn --write .",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests --testPathPatterns ./src/",
+		"audit": "npm run fmt && npm run test && cat ./ready-to-integrate.txt"
+	},
+	"devDependencies": {
+		"googleapis": "175.0.0",
+		"jest": "30.4.2",
+		"prettier": "3.9.6"
+	}
+}
