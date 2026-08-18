@@ -1,6 +1,10 @@
-# P0: TODO
+![Made to be Plundered](https://img.shields.io/badge/Made%20to%20be%20Plundered-royalblue)
+[![Latest version](https://img.shields.io/github/v/release/PaulioRandall/p105-util-js)](https://github.com/PaulioRandall/p105-util-js/releases)
+[![Release date](https://img.shields.io/github/release-date/PaulioRandall/p105-util-js)](https://github.com/PaulioRandall/p105-util-js/releases)
 
-TODO: description.
+# P105: General JavaScript Utility Library
+
+A personalised collection of JavaScript functions, classes, and constants.
 
 **API Documentation in _[/src](./src)_.**
 
