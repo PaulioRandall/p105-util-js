@@ -17,7 +17,8 @@
 		"url": "git+https://github.com/PaulioRandall/p105-util-js.git"
 	},
 	"exports": {
-		"./ArrayUtil": "./src/ArrayUtil.js"
+		"./ArrayUtil": "./src/ArrayUtil.js",
+		"./DirtyMap": "./src/DirtyMap.js"
 	},
 	"scripts": {
 		"update": "npx npm-check-updates -u && npm i",
